@@ -107,6 +107,9 @@ dependencies {
     //Room
     implementation(Deps.Room.runtime)
     implementation(Deps.Room.ktx)
+    implementation("androidx.appcompat:appcompat:1.6.1")
+    implementation("com.google.android.material:material:1.5.0")
+    implementation("androidx.constraintlayout:constraintlayout:2.1.4")
     kapt(Deps.Room.compiler)
 
     // Activity KTX
@@ -147,6 +150,7 @@ dependencies {
 
     //Idling Resource
     implementation(Deps.AndroidX.Test.Espresso.idling_resource)
+//    implementation 'androidx.appcompat:appcompat:1.4.0'
 
     //Testing dependencies
     testImplementation(Deps.junit)
